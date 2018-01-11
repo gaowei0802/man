@@ -1,0 +1,248 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-05 19:56:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 18:37:25
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 531060 */
+  src: url('https://at.alicdn.com/t/font_531060_et25pahyegv3rf6r.eot');
+  src: url('https://at.alicdn.com/t/font_531060_et25pahyegv3rf6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531060_et25pahyegv3rf6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531060_et25pahyegv3rf6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531060_et25pahyegv3rf6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.header{
+	width: 100%;
+	height: 1.43rem;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.paizi i{
+	line-height: 1.43rem;
+	font-size: 0.6rem;
+	color: #333;
+	margin: 0.4rem 0.45rem;
+}
+.header .xiaoxi{
+	float: right;
+	color: #333;
+	margin: 0.4rem 0.45rem;
+}
+.user{
+	width: 100%;
+	height: 3.3rem;
+	background: #fff;
+	margin-top: 1.43rem;
+	padding-top: 0.1rem;
+	text-align: center;
+	border-top: 0.01rem solid #f5f5f5;
+}
+.touxiang{
+	width: 2.2rem;
+	height: 2.2rem;
+	/* background: yellow; */
+	border-radius: 50%;
+	margin: 0 auto 0.1rem;
+}
+.touxiang img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.user a{
+	color: #4c4c4c;
+}
+.shoucang{
+	width: 100%;
+	height: 1.98rem;
+	background: red;
+}
+.shoucang ul{
+	width: 100%;
+	height: 1.98rem;
+	background: #fff;
+	border-top: 0.01rem solid #f5f5f5;
+}
+.shoucang ul li{
+	width: calc(100% / 3);
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	border-left: 0.01rem solid #f5f5f5;
+	box-sizing: border-box;
+}
+.shoucang ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.shoucang ul li a i{
+	font-size: 0.2rem;
+	display: block;
+	padding: 0.3rem 0 0.1rem;
+	color: #757575;
+}
+.shoucang ul li a em{
+	font-size: 0.2rem;
+	color: #757575;
+}
+.dingdan{
+	width: 100%;
+	height: 3.25rem;
+	background: #fff;
+	margin-top: 0.3rem;
+}
+.dingdan_name{
+	width: 100%;
+	height: 1.42rem;
+	background: #fff;
+	line-height: 1.42rem;
+	border-bottom: 0.01rem solid #f5f5f5;
+}
+.dingdan_name i{
+	font-size: 0.3rem;
+	color: #4c4c4c;
+	margin-left: 0.4rem;
+}
+.dingdan_name a{
+	font-size: 0.3rem;
+	color: #b4b4b4;
+	float: right;
+	margin-right: 0.4rem;
+}
+.dingdan_name a i{
+	margin-left: 0.1rem;
+}
+.wuliu{
+	width: 100%;
+	height: 1.82rem;
+}
+.wuliu ul{
+	width: 100%;
+	height: 1.82rem;
+	border-bottom: 0.01rem solid #f5f5f5;
+}
+.wuliu ul li{
+	width: calc(100% / 4);
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.wuliu ul li i{
+	display: block;
+	font-size: 0.6rem;
+	color: #4c4c4c;
+	padding-top: 0.2rem;
+}
+.wuliu ul li em{
+	font-size: 0.3rem;
+	color: #4c4c4c;
+}
+.caifu{
+	width: 100%;
+	height: 6.22rem;
+	background: #fff;
+	margin-top: 0.3rem;
+}
+.caifu ul{
+	width: 100%;
+	height: calc(100% / 2);
+	/* background: blue; */
+	border-bottom: 0.01rem solid #f5f5f5;
+	box-sizing: border-box;
+}
+.caifu ul li{
+	width: calc(100% / 3);
+	height: 100%;
+	/* background: #58a; */
+	float: left;
+	border-right: 0.01rem solid #f5f5f5;
+	box-sizing: border-box;
+	text-align: center;
+}
+.caifu ul li a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.caifu ul li a i{
+	display: block;
+	padding: 0.4rem;
+	font-size: 1rem;
+	color: #fe9c3c;
+}
+.caifu ul li:nth-child(2) a i{
+	color: #fec93c;
+}
+.caifu ul li:nth-child(3) a i{
+	color: #fe613c;
+}
+.caifu ul:nth-child(2) li:nth-child(1) a i{
+	color: #9c3cfe;
+}
+.caifu ul:nth-child(2) li:nth-child(2) a i{
+	color: #3ca0fe;
+}
+.caifu ul:nth-child(2) li:nth-child(3) a i{
+	color: #29bea4;
+}
+.caifu ul li a em{
+	color: #4c4c4c;
+	font-size: 0.3rem;
+}
+.footer{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+	border: 0.03px solid #eee;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer ul{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+
+}
+.footer ul li{
+	width: calc(100% / 4);
+	height: 100%;
+	float: left;
+}
+.footer ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.footer ul li a i{
+	display: block;
+	font-size: 0.5rem;
+	text-align: center;
+	color: #4c4c4c;
+}
+.footer ul li a em{
+	display: block;
+	font-size: 0.4rem;
+	text-align: center;
+	color: #4c4c4c;
+}
+.footer ul li:last-child a{
+	background: #4c4c4c;
+	color: #fff;
+}
+.footer ul li:last-child a i{
+	color: #fff;
+}
+.footer ul li:last-child a em{
+	color: #fff;
+}
